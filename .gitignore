@@ -1,0 +1,54 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+
+# Environments
+env/
+.env
+
+src/
+*.pth
+
+# PyTorch
+torch/lib/*.dll*
+torch/lib/*.exe*
+torch/lib/*.dylib*
+
+# AWS credentials and sensitive files
+testaws.py
+ssh_private_key
+*_private_key
+*.pem
+*.key
+
+# macOS system files
+.DS_Store
+*.DS_Store
+
+# Test/temporary files
+response.json

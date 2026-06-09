@@ -1,0 +1,3 @@
+yc8.oif - C=1
+YFP Background value is:  131
+CFP Background value is:  134

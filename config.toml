@@ -1,0 +1,12 @@
+[project]
+name = "neuro-swin"
+version = "0.0.1"
+
+[DEFAULT]
+checkpoint_file = "epoch_50.pth"
+config_file = "/usr/src/app/configs/swin-sim-seg/1_mask_rcnn_swin-t-p4-w7_fpn_ms-crop-3x_sim_seg.py"
+save_dir = "prediction/"
+data_dir = "data/"
+cell_prob_param = 0.05
+# torch_state_file = "results/sim_seg_mar_31_2022/epoch_35.pth"
+torch_state_file = "src/epoch_50.pth"
